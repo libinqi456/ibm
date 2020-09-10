@@ -1,0 +1,25 @@
+ibm cloud shell :
+
+wget --no-check-certificate -O ibmcloud.sh https://raw.githubusercontent.com/Netflixxp/ibm/master/ibmcloud.sh && chmod +x ibmcloud.sh  && ./ibmcloud.sh
+或
+wget --no-check-certificate -O ibmcloud.sh https://raw.githubusercontent.com/libinqi456/ibm/master/ibmcloud.sh && chmod +x ibmcloud.sh  && ./ibmcloud.sh
+
+********************https://dash.cloudflare.com*******************************************
+cloudflare works  脚本
+
+addEventListener(
+"fetch",event => {
+let url=new URL(event.request.url);
+url.hostname="binky2020.us-south.cf.appdomain.cloud";
+url.pathname="/109c563a";
+let request=new Request(url,event.request);
+event. respondWith(
+fetch(request)
+)
+}
+)
+***************************************************************
+复制请求地址
+https://flat-wind-xxxxx.xxxxxxxx-film.workers.dev
+
+最后在v2ray配置
