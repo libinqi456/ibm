@@ -44,4 +44,8 @@ echo 容器已经成功启动
 echo 地址: $domain
 echo UUID: $uuid
 echo path: /$path
+echo network ws
+echo port 443
+echo tls tls
+echo type none
 echo vmess://$vmess
